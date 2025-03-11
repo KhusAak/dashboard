@@ -1,0 +1,133 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(197, 79, 79);
+    padding: 5px 10px;
+  }
+
+  .h1{
+    font-size: 20px;
+  }
+
+ .nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    border: white;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .logout a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color:black;
+    border-radius: 5px;
+  }
+.button{
+  background-color: black;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  flex-direction: column;
+  margin: 60px;
+  padding: 90px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 30px;
+
+}
+#gradient1{
+
+ background-image: linear-gradient(to right, purple,rgb(166, 103, 166)rgb(96, 96, 150))) ;
+ color: rgb(249, 239, 239);
+}
+#gradient2{
+  background-image: linear-gradient(to bottom,rgb(161, 161, 84),rgb(168, 137, 89),rgb(155, 92, 72));
+  color:white;
+}
+#gradient3{
+  background-image: linear-gradient(rgb(125, 52, 64),rgb(172, 92, 158),rgb(208, 135, 147));
+  color:white;
+}
+#gradient4{
+  background-image: linear-gradient(pink,red,blue);
+  color:white;
+}
+.button{
+background-color: black;
+}
+.recent-circulation{
+  width: 60%;
+  max-width: 1200px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(0,0,0,0,1);
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.header h2 {
+margin: 0;
+font-size: 18px;
+font-weight: bold;
+}
+.add-issue{
+  background-color:rgb(115, 163, 213);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0,3s;
+}
+.add-issue:hover {
+  background-color:rgb(60, 104, 151);
+}
+
+.circulation-table{
+  width: 175%;
+  border-collapse: collapse;
+}
+.circulation-table thead{
+  background-color: #f0f0f0;
+}
+.circulation-table th{
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc2c2;
+  
+}
+.circulation-table td{
+  padding: 10px;
+}
+.circulation-table th{
+  font-weight: bold;
+}
+.circulation-table tbody .no-data{
+  text-align: center;
+  font-style: italic;
+  color: #888;
+  background-color: #fafafa;
+}
+
